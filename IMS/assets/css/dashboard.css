@@ -1,0 +1,53 @@
+/* General page styling */
+body {
+    background-color: #f5f5f5;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.btn-lg {
+    width: 180px;
+}
+
+.btn-primary {
+    background-color: #4a90e2;
+    border-color: #4a90e2;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+/* Table styling */
+.table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #e9ecef;
+}
+/* General styling for buttons and tables */
+.btn-lg { width: 180px; margin: 5px; }
+.table { background-color: #f8f9fa; }
+.table thead th { background-color: #343a40; color: #ffffff; }
+.modal-content { padding: 20px; }

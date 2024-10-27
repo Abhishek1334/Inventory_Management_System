@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShelfWise - Inventory Management System</title>
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- New Font -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="dashboard/index.php">ShelfWise</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="auth/login.php">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Landing Section -->
+    <section class="landing-section text-center">
+        <div class="container">
+            <img src="assets/images/welcome.png" height="85vh" alt="Welcome to ShelfWise" class="landing-background"> <!-- Image placed behind the text -->
+            <h1>Welcome to ShelfWise</h1>
+            <p>Your all-in-one solution for inventory management. Track your stock, manage orders, and streamline your business operations with ease.</p>
+            <a href="auth/register.php" class="btn btn-primary btn-lg">Get Started</a> <!-- Increased button size -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About ShelfWise</h2>
+                    <p>
+                        ShelfWise is an advanced Inventory Management System designed to automate and streamline inventory tracking for businesses. 
+                        Whether you're running a warehouse, a store, or managing goods in any other environment, ShelfWise ensures efficient operations 
+                        by providing real-time inventory updates, low-stock alerts, and order management systems.
+                    </p>
+                    <p>
+                        This mobile-friendly and web-based platform is the ideal solution to avoid stockouts and overstocking, ensuring your business 
+                        runs smoothly with minimal disruptions.
+                    </p>
+                    <p>
+                        Our system enables authorized users to access critical stock data, update inventory levels, and generate reports with ease. 
+                        Admins can oversee all users and inventory, ensuring tight security and effective stock management.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/welcome-img2.png" alt="Inventory Management Illustration" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr> <!-- Thin line separator -->
+
+
+   <!-- Services Section -->
+<section id="services" class="services-section text-center">
+    <div class="container">
+        <h2>Our Services</h2>
+        <p class="service-intro">At ShelfWise, we offer a comprehensive range of services designed to streamline your inventory management processes and enhance your business operations.</p> <!-- New introductory text -->
+        <div class="row">
+            <div class="col-md-6">
+                <i class="fas fa-box fa-3x service-icon"></i>
+                <p>Real-time stock management system.</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-bell fa-3x service-icon"></i>
+                <p>Low-stock alerts and notifications to prevent shortages.</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-shipping-fast fa-3x service-icon"></i>
+                <p>Order management for tracking incoming and outgoing goods.</p>
+            </div>
+            <div class="col-md-6">
+                <i class="fas fa-user-cog fa-3x service-icon"></i>
+                <p>Admin panel for managing users, inventory, and reports.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <hr> <!-- Thin line separator -->
+
+    <!-- Footer Section -->
+    <footer class="footer-section bg-light text-center">
+        <div class="container">
+            <p>Stay connected with us:</p>
+            <ul class="social-links list-inline">
+                <li class="list-inline-item"><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+            </ul>
+            <p>© 2024 ShelfWise. All rights reserved.</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+    </footer>
+
+</body>
+</html>

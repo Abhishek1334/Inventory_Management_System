@@ -1,0 +1,217 @@
+/* General Body Style */
+body {
+    font-family: 'Roboto', sans-serif; /* Using the new creative font */
+    color: #333;
+    background-color: #f5f8fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent for blending with the background */
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #0288d1; /* Change color on hover for better feedback */
+}
+
+/* Landing Section */
+.landing-section {
+    position: relative;
+    text-align: center;
+    height: 84vh; /* Set height to cover most of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    overflow: hidden;
+}
+
+.landing-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image scales proportionally */
+    z-index: -2; /* Keeps the image behind both the text and overlay */
+}
+
+.landing-section h1 {
+    font-size: 42px;
+    color: #0288d1; /* White text for better visibility */
+    z-index: 1; /* Ensure text stays above the image */
+    text-shadow: 2px 2px 6px rgba(207, 165, 165, 0.9); /* Stronger shadow for clarity */
+}
+
+.landing-section p {
+    font-size: 22px;
+    margin-top: 20px;
+    color: #1f1b1b;
+    z-index: 1;
+    font-weight: 900;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.btn-primary {
+    background-color: #0288d1;
+    border-color: #0288d1;
+    color: white;
+    margin-top: 20px;
+    padding: 12px 24px; /* Increased padding for a larger button */
+    font-size: 18px; /* Increased font size for better visibility */
+    margin-bottom: 250px;
+}
+
+/* Section Separator */
+hr {
+    border: none;
+    height: 1px; /* Height of the separator */
+    background-color: #e0e0e0; /* Color of the separator line */
+    margin: 60px 20px; /* Margin for spacing */
+}
+
+/* About Section */
+.about-section {
+    padding: 60px 0;
+    text-align: left;
+}
+
+.about-section h2 {
+    color: #1565c0;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.services-section {
+    padding: 60px 0;
+}
+.service-intro {
+    font-size: 18px; /* Adjust size as needed */
+    color: #666; /* Slightly lighter color for contrast */
+    margin-bottom: 30px; /* Space between the intro text and services */
+}
+
+.services-section h2 {
+    color: #1565c0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service-icon {
+    margin-bottom: 20px;
+}
+
+.services-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.services-list li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #fafafa;
+    padding: 40px 0;
+}
+
+footer form {
+    max-width: 600px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.social-links li a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+.social-links li a:hover {
+    color: #0056b3;
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+
+/* Form Style */
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    color: #1565c0;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-block {
+    background-color: #0288d1;
+    border-color: #0288d1;
+    color: white;
+}
+
+.btn-block:hover {
+    background-color: #0277bd;
+    border-color: #0277bd;
+}
+
+/* Footer Style */
+.footer-section {
+    padding: 30px 0;
+}
+
+.footer-section p {
+    color: #666;
+    margin: 0;
+}
+
+/* Profile Section */
+.profile-section {
+    padding: 40px 0;
+}
+
+.profile-section h2 {
+    color: #0288d1;
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
